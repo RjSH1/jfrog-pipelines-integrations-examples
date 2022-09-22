@@ -1,5 +1,5 @@
 gitIntegration: myGithub        # <-- replace with your GitRepo integration name
-gitRepositoryPath: jfrog/jfrog-pipelines-integrations-examples  # replace jfrog with your username or org name
+gitRepositoryPath: RjSH1/jfrog-pipelines-integrations-examples  # replace jfrog with your username or org name
 artifactoryIntegration: myArtifactory     # <-- replace with your Artifactory integration name
 imageName: app_docker_image
 artifactoryUrl: pipe.jfrog-pipelines.com   # replace with your server name
