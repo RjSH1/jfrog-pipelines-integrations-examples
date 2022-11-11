@@ -1,11 +1,11 @@
 pipelines:
-  - name: smtp_pipe
+  - name: smtpNotify
     steps:
-      - name: test_step_1
+      - name: step_1
         type: Bash
         configuration:
           integrations:
-            - name: notifySMTP       # replace with friendly name of your SMTP Credentials integration
+            - name: mySMTP       # replace with friendly name of your SMTP Credentials integration
         execution:
           onSuccess:
             # replace 'notifySMTP' with the name of your SMTP Credentials integration
