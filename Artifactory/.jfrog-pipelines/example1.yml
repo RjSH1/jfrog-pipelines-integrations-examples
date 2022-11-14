@@ -15,7 +15,7 @@ resources:
     configuration:
       registry: {{ .Values.artifactoryIntegration }}
       sourceRepository:  {{ .Values.sourceRespository }}
-      imageName:  {{ .Values.artifactoryUrl }}/{{ .Values.sourceRepository }}/{{ .Values.imageName }}
+      #imageName:  {{ .Values.artifactoryUrl }}/{{ .Values.sourceRepository }}/{{ .Values.imageName }}
       imageName:  cloud8nov.jfrogdev.org/{{ .Values.sourceRepository }}/{{ .Values.imageName }}
       imageTag: latest
       autoPull: true
