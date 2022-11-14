@@ -1,7 +1,7 @@
-gitIntegration: myGithub        # <-- replace with your GitRepo integration name
+gitIntegration: rajGit        # <-- replace with your GitRepo integration name
 gitRepositoryPath: RjSH1/jfrog-pipelines-integrations-examples  # replace jfrog with your username or org name
-artifactoryIntegration: myArtifactory     # <-- replace with your Artifactory integration name
+artifactoryIntegration: rajArt     # <-- replace with your Artifactory integration name
 imageName: app_docker_image
-artifactoryUrl: pipe.jfrog-pipelines.com   # replace with your server name
+artifactoryUrl: cloud8nov.jfrogdev.org   # replace with your server name
 sourceRepository: docker-staging-local  # replace local docker repository name created in Artifactory
 # prodRepository: su204-docker-prod-local # replace with local docker repository name created in Artifactory
